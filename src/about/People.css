@@ -1,0 +1,28 @@
+.connect-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.connect-breadcrumb nav {
+    margin: 0;
+}
+
+.breadcrumb {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb-item {
+    margin-right: 8px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.breadcrumb-item.active a {
+    font-weight: bold;
+}
